@@ -1,0 +1,147 @@
+body{
+    background:#000;
+}
+.Education {
+    background-size: contain;
+    width:422px;
+    height: 534px;
+    margin-left: 8px;
+}
+
+.Education .Education-cont {
+    width: 100%;
+    height: 491px;
+    position: relative;
+    top: -684px;
+}
+
+.Education .Education-cont #trans3DDemo1 {
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.Education #trans3DBoxes1 {
+    top: 0;
+    left: 0;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+}
+
+#trans3DBoxes1 .cube {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#trans3DBoxes1 .cube .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/*文字的盒子*/
+.Education .cubeWordFirst{
+    text-align: center;
+    width:100%;
+    height:115px ;
+    display: block;
+    color:#b1dd03;
+    float:left;
+    margin-top: 24%;
+}
+.Education .cubeWordSecond{
+    text-align: center;
+    width:100%;
+    margin-top:16px;
+    display: block;
+    color:#b1dd03;
+    float:left;
+}
+.Education .cubeWord_title{
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size:40px;
+}
+.Education .cubeWord_number{
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size:60px;
+    letter-spacing:5px;
+    margin-top: 30px;
+    font-family: DigitalFont;
+}
+/*3D盒子*/
+#trans3DBoxes1 .cube:nth-child(1) .bg {
+    background: url("../image/box-bottom.png") no-repeat center;
+    background-size: 100% 100%;
+    box-reflect: below 0px linear-gradient(
+            transparent,
+            transparent 69%,
+            rgba(0, 0, 0, .2)
+    )
+}
+
+#trans3DBoxes1 .cube:nth-child(2) .bg {
+    background: url("../image/box-bottom.png") no-repeat center;
+    background-size: 100% 100%;
+    box-reflect: below 0px linear-gradient(
+            transparent,
+            transparent 69%,
+            rgba(0, 0, 0, .2)
+    )
+}
+
+#trans3DBoxes1 .cube:nth-child(3) .bg {
+    background: url("../image/box-bottom.png") no-repeat center;
+    background-size: 100% 100%;
+    box-reflect: below 0px linear-gradient(
+            transparent,
+            transparent 69%,
+            rgba(0, 0, 0, .2)
+    )
+}
+
+#trans3DBoxes1 .cube:nth-child(4) .bg {
+    background: url("../image/box-bottom.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#trans3DBoxes1 .cube:nth-child(5) .bg {
+    background: url("../image/box-bottom.png") no-repeat center;
+    background-size: 100% 100%;
+}
+
+#trans3DBoxes1 .cube:nth-child(6) .bg {
+    background: url("../image/box-bottom.png") no-repeat center;
+    background-size: 100% 100%;
+    box-reflect: below 0px linear-gradient(
+            transparent,
+            transparent 69%,
+            rgba(0, 0, 0, .2)
+    )
+}
+
+/*
+.bg span:nth-child(1){
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size:20px;
+    text-align: center;
+}
+
+.bg span:nth-child(2){
+    display: block;
+    width: 100%;
+    height: 20px;
+    font-size:40px;
+    text-align: center;
+}*/
