@@ -1,7 +1,7 @@
 $(function(){
 
 
-// 加 ，的
+// 数字 格式 加 ，的 如：3,456
 function toThousands(num) {
     var result = '', counter = 0;
     num = (num).toString();
